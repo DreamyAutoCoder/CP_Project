@@ -21,7 +21,7 @@
  *  FILE DESCRIPTION
  *  -------------------------------------------------------------------------------------------------------------------
  *              File: Can_Cfg.h
- *   Generation Time: 2021-06-21 14:32:31
+ *   Generation Time: 2025-03-02 23:14:13
  *           Project: S32K144_Start - Version 1.0
  *          Delivery: CBD1800257_D01
  *      Tool Version: DaVinci Configurator  5.18.37 SP1
@@ -284,7 +284,7 @@
 #define CAN_MULTIPLEXED_TRANSMISSION         STD_OFF   /* CAN095_Conf */
 #define CAN_HW_TRANSMIT_CANCELLATION         STD_OFF   /* CAN069_Conf */
 #define CAN_IDENTICAL_ID_CANCELLATION        STD_OFF   /* CAN378_Conf */
-#define CAN_MULTIPLE_BASICCAN_TX             STD_OFF
+#define CAN_MULTIPLE_BASICCAN_TX             STD_ON
 
 /* Rx Handling */
 #define CAN_MULTIPLE_BASICCAN                STD_OFF
@@ -373,7 +373,8 @@
 #define CanConf_CanController_CT_CAN00_9df8a959                       0
 /**\} */
 #define CanConf_CN_CAN00_5e566ad9_Tx 0U
-#define CanConf_CN_CAN00_770af0b0_Rx 1U
+#define CanConf_CN_CAN00_770af0b0_Rx 2U
+#define CanConf_Can_Network_Tx_Mailbox 1U
 
 #define CanConf_ControllerBaudrateConfig_CT_CAN00_9df8a959_CanControllerBaudrateConfig 0u
 
@@ -903,7 +904,7 @@ typedef VAR(Can_ExternalTickType, TYPEDEF) Can_LoopTimeout_dim_type[CAN_LOOP_MAX
 #define Can_GetInitObjectStartIndexOfPCConfig()                       Can_InitObjectStartIndex  /**< the pointer to Can_InitObjectStartIndex */
 #define Can_GetMailboxOfPCConfig()                                    Can_Mailbox  /**< the pointer to Can_Mailbox */
 #define Can_GetPlatformDll_GeneratorVersionOfPCConfig()               0x0101u
-#define Can_GetSizeOfActiveSendObjectOfPCConfig()                     2u  /**< the number of accomplishable value elements in Can_ActiveSendObject */
+#define Can_GetSizeOfActiveSendObjectOfPCConfig()                     3u  /**< the number of accomplishable value elements in Can_ActiveSendObject */
 #define Can_GetSizeOfCanIfChannelIdOfPCConfig()                       1u  /**< the number of accomplishable value elements in Can_CanIfChannelId */
 #define Can_GetSizeOfControllerConfigOfPCConfig()                     1u  /**< the number of accomplishable value elements in Can_ControllerConfig */
 #define Can_GetSizeOfInitBasicCanIndexOfPCConfig()                    1u  /**< the number of accomplishable value elements in Can_InitBasicCanIndex */
@@ -911,7 +912,7 @@ typedef VAR(Can_ExternalTickType, TYPEDEF) Can_LoopTimeout_dim_type[CAN_LOOP_MAX
 #define Can_GetSizeOfInitObjectBaudrateOfPCConfig()                   1u  /**< the number of accomplishable value elements in Can_InitObjectBaudrate */
 #define Can_GetSizeOfInitObjectOfPCConfig()                           1u  /**< the number of accomplishable value elements in Can_InitObject */
 #define Can_GetSizeOfInitObjectStartIndexOfPCConfig()                 2u  /**< the number of accomplishable value elements in Can_InitObjectStartIndex */
-#define Can_GetSizeOfMailboxOfPCConfig()                              3u  /**< the number of accomplishable value elements in Can_Mailbox */
+#define Can_GetSizeOfMailboxOfPCConfig()                              4u  /**< the number of accomplishable value elements in Can_Mailbox */
 #define Can_GetSizeOfTxOffsetHwToLogOfPCConfig()                      1u  /**< the number of accomplishable value elements in Can_TxOffsetHwToLog */
 #define Can_GetTxOffsetHwToLogOfPCConfig()                            Can_TxOffsetHwToLog  /**< the pointer to Can_TxOffsetHwToLog */
 /** 
@@ -1803,7 +1804,7 @@ extern CONST(Can_InitObjectStartIndexType, CAN_CONST) Can_InitObjectStartIndex[2
 /*lint -save -esym(961, 19.1) */
 #include "MemMap.h"  /* PRQA S 5087 */  /* MD_MSR_19.1 */
 /*lint -restore */
-extern CONST(Can_MailboxType, CAN_CONST) Can_Mailbox[3];
+extern CONST(Can_MailboxType, CAN_CONST) Can_Mailbox[4];
 #define CAN_STOP_SEC_CONST_UNSPECIFIED
 /*lint -save -esym(961, 19.1) */
 #include "MemMap.h"  /* PRQA S 5087 */  /* MD_MSR_19.1 */
@@ -1841,7 +1842,7 @@ extern CONST(Can_TxOffsetHwToLogType, CAN_CONST) Can_TxOffsetHwToLog[1];
 /*lint -save -esym(961, 19.1) */
 #include "MemMap.h"  /* PRQA S 5087 */  /* MD_MSR_19.1 */
 /*lint -restore */
-extern VAR(Can_ActiveSendObjectType, CAN_VAR_NOINIT) Can_ActiveSendObject[2];
+extern VAR(Can_ActiveSendObjectType, CAN_VAR_NOINIT) Can_ActiveSendObject[3];
 #define CAN_STOP_SEC_VAR_NOINIT_UNSPECIFIED
 /*lint -save -esym(961, 19.1) */
 #include "MemMap.h"  /* PRQA S 5087 */  /* MD_MSR_19.1 */

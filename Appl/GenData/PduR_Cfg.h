@@ -21,7 +21,7 @@
  *  FILE DESCRIPTION
  *  -------------------------------------------------------------------------------------------------------------------
  *              File: PduR_Cfg.h
- *   Generation Time: 2021-06-21 14:32:31
+ *   Generation Time: 2025-03-02 23:14:13
  *           Project: S32K144_Start - Version 1.0
  *          Delivery: CBD1800257_D01
  *      Tool Version: DaVinci Configurator  5.18.37 SP1
@@ -150,9 +150,10 @@
 
 /* Handle IDs active in all predefined variants (the application has not to take the active variant into account) */
 /*      Symbolic Name                                                 Value   Active in predefined variant(s) */
-#define PduRConf_PduRSrcPdu_PduRSrcPdu_8e8b997f                       0u
-#define PduRConf_PduRSrcPdu_PduRSrcPdu_087fd70d                       1u
-#define PduRConf_PduRSrcPdu_PduRSrcPdu_f4835c60                       2u
+#define PduRConf_PduRSrcPdu_PduRSrcPdu                                0u
+#define PduRConf_PduRSrcPdu_PduRSrcPdu_8e8b997f                       1u
+#define PduRConf_PduRSrcPdu_PduRSrcPdu_087fd70d                       2u
+#define PduRConf_PduRSrcPdu_PduRSrcPdu_f4835c60                       3u
 /**\} */
 
 /**
@@ -163,8 +164,9 @@
 
 /* Handle IDs active in all predefined variants (the application has not to take the active variant into account) */
 /*      Symbolic Name                                                 Value   Active in predefined variant(s) */
-#define PduRConf_PduRDestPdu_msg_MyECU_Lamp_oCAN00_26f3473b_Tx        0u
-#define PduRConf_PduRDestPdu_msg_Transmit_oCAN00_9631a86b_Tx          1u
+#define PduRConf_PduRDestPdu_PduRDestPdu                              0u
+#define PduRConf_PduRDestPdu_msg_MyECU_Lamp_oCAN00_26f3473b_Tx        1u
+#define PduRConf_PduRDestPdu_msg_Transmit_oCAN00_9631a86b_Tx          2u
 /**\} */
 
 /**
