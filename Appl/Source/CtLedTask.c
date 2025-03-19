@@ -43,7 +43,7 @@
  *********************************************************************************************************************/
 
 #include "Rte_CtLedTask.h" /* PRQA S 0857 */ /* MD_MSR_1.1_857 */
-
+#include "Appl_Cbk.h"
 
 /**********************************************************************************************************************
  * DO NOT CHANGE THIS COMMENT!           << Start of include and declaration area >>        DO NOT CHANGE THIS COMMENT!
@@ -169,15 +169,24 @@ LedState ^= 0x01;
 
  Dio_WriteChannel(112,LedState);
 
-Rte_Write_CtLedTask_FrontInterLight_bool_Signal(1);
-Rte_Read_RearLeft_WindowPosition_u8_Signal(&RearRightWindowPosition);
-Rte_Read_RearRight_WindowPosition_u8_Signal(&RearLeftWindowPosition);
+// Rte_Write_CtLedTask_FrontInterLight_bool_Signal(1);
+// Rte_Read_RearLeft_WindowPosition_u8_Signal(&RearRightWindowPosition);
+// Rte_Read_RearRight_WindowPosition_u8_Signal(&RearLeftWindowPosition);
 
 /**********************************************************************************************************************
  * DO NOT CHANGE THIS COMMENT!           << End of runnable implementation >>               DO NOT CHANGE THIS COMMENT!
  *********************************************************************************************************************/
 }
 
+static unsigned char Cbkcnt = 0;
+FUNC(void, COM_APPL_CODE) ComCbkRx_Receive02Cbk(void){
+    Cbkcnt = 1;
+    Com_SendSignal(ComConf_ComSignal_sig_new_myecu_Send_omsg_Transmit02_oCAN00_778664dc_Tx,(&Cbkcnt));
+}
+
+FUNC(void, COM_APPL_CODE) ComCbk_Receive02TimeoutCbk(void){
+    Com_SendSignal(ComConf_ComSignal_sig_new_myecu_Send_omsg_Transmit02_oCAN00_778664dc_Tx,(&Cbkcnt));
+}
 
 #define CtLedTask_STOP_SEC_CODE
 #include "CtLedTask_MemMap.h" /* PRQA S 5087 */ /* MD_MSR_19.1 */

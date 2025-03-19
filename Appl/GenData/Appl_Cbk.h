@@ -21,7 +21,7 @@
  *  FILE DESCRIPTION
  *  -------------------------------------------------------------------------------------------------------------------
  *              File: Appl_Cbk.h
- *   Generation Time: 2021-04-09 15:46:06
+ *   Generation Time: 2025-03-19 23:58:16
  *           Project: S32K144_Start - Version 1.0
  *          Delivery: CBD1800257_D01
  *      Tool Version: DaVinci Configurator  5.18.37 SP1
@@ -66,6 +66,8 @@
 #include "MemMap.h"
 
 /* Configurable notification interface prototypes */
+FUNC(void, COM_APPL_CODE) ComCbkRx_Receive02Cbk(void);
+FUNC(void, COM_APPL_CODE) ComCbk_Receive02TimeoutCbk(void);
 
 
 #define COM_STOP_SEC_APPL_CODE

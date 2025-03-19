@@ -27,6 +27,7 @@ Com_Lcfg.pbi: \
   D:\Autosar\AutosarTools\S32K144_SIP\MICROSAR\CBD1800257_D01_S32K1xx\Applications\S32K144_Start_new_IAR\Appl\GenData\PduR_Com.h \
   D:\Autosar\AutosarTools\S32K144_SIP\MICROSAR\CBD1800257_D01_S32K1xx\Applications\S32K144_Start_new_IAR\Appl\GenData/Com_Lcfg.h \
   D:\Autosar\AutosarTools\S32K144_SIP\MICROSAR\CBD1800257_D01_S32K1xx\Applications\S32K144_Start_new_IAR\Appl\GenData/Com_Cfg.h \
+  D:\Autosar\AutosarTools\S32K144_SIP\MICROSAR\CBD1800257_D01_S32K1xx\Applications\S32K144_Start_new_IAR\Appl\GenData/Appl_Cbk.h \
   D:\Autosar\AutosarTools\S32K144_SIP\MICROSAR\CBD1800257_D01_S32K1xx\Applications\S32K144_Start_new_IAR\Appl\GenData/SchM_Com.h \
   D:\Autosar\AutosarTools\S32K144_SIP\MICROSAR\CBD1800257_D01_S32K1xx\Applications\S32K144_Start_new_IAR\Appl\GenData/SchM_Com_Type.h \
   D:\Autosar\AutosarTools\S32K144_SIP\MICROSAR\CBD1800257_D01_S32K1xx\Applications\S32K144_Start_new_IAR\Appl\GenData/Rte_Type.h \

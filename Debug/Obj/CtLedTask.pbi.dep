@@ -20,6 +20,7 @@ CtLedTask.pbi: \
   D:\Autosar\AutosarTools\S32K144_SIP\MICROSAR\CBD1800257_D01_S32K1xx\Applications\S32K144_Start_new_IAR\MCAL\Base_TS_T40D2M10I1R0\include\Soc_Ips.h \
   D:\Autosar\AutosarTools\S32K144_SIP\MICROSAR\CBD1800257_D01_S32K1xx\Applications\S32K144_Start_new_IAR\MCAL\Base_TS_T40D2M10I1R0\include\Mcal.h \
   D:\Autosar\AutosarTools\S32K144_SIP\MICROSAR\CBD1800257_D01_S32K1xx\Applications\S32K144_Start_new_IAR\MCAL\Dio_TS_T40D2M10I1R0\include\Dio.h \
+  D:\Autosar\AutosarTools\S32K144_SIP\MICROSAR\CBD1800257_D01_S32K1xx\Applications\S32K144_Start_new_IAR\Appl\GenData\Appl_Cbk.h \
   D:\Autosar\AutosarTools\S32K144_SIP\MICROSAR\CBD1800257_D01_S32K1xx\Applications\S32K144_Start_new_IAR\Appl\GenData\PduR_Com.h \
   D:\Autosar\AutosarTools\S32K144_SIP\MICROSAR\CBD1800257_D01_S32K1xx\Applications\S32K144_Start_new_IAR\Appl\Include\VStdLib_Cfg.h \
   D:\Autosar\AutosarTools\S32K144_SIP\MICROSAR\CBD1800257_D01_S32K1xx\Applications\S32K144_Start_new_IAR\BSW\VStdLib\vstdlib.h \
