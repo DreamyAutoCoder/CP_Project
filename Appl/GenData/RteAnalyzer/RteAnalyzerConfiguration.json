@@ -262,6 +262,90 @@
       {
          "ExecutedOnTaskLevel" : "1",
          "NamePattern" : "Rte_NvMNotifyInitBlock.*"
+      },
+      {
+         "ExecutedOnTaskLevel" : "1",
+         "NamePattern" : "Rte_COMCbk_sig_new_myecu_Send_omsg_Transmit02_oCAN00_778664dc_Tx"
+      },
+      {
+         "ExecutedOnTaskLevel" : "1",
+         "NamePattern" : "Rte_COMCbkTAck_sig_new_myecu_Send_omsg_Transmit02_oCAN00_778664dc_Tx"
+      },
+      {
+         "ExecutedOnTaskLevel" : "1",
+         "NamePattern" : "Rte_COMCbkTErr_sig_new_myecu_Send_omsg_Transmit02_oCAN00_778664dc_Tx"
+      },
+      {
+         "ExecutedOnTaskLevel" : "1",
+         "NamePattern" : "Rte_COMCbkTxTOut_sig_new_myecu_Send_omsg_Transmit02_oCAN00_778664dc_Tx"
+      },
+      {
+         "ExecutedOnTaskLevel" : "1",
+         "NamePattern" : "Rte_COMCbkTOut_sig_new_myecu_Send_omsg_Transmit02_oCAN00_778664dc_Tx"
+      },
+      {
+         "ExecutedOnTaskLevel" : "1",
+         "NamePattern" : "Rte_COMCbkRxTOut_sig_new_myecu_Send_omsg_Transmit02_oCAN00_778664dc_Tx"
+      },
+      {
+         "ExecutedOnTaskLevel" : "1",
+         "NamePattern" : "Rte_COMCbkInv_sig_new_myecu_Send_omsg_Transmit02_oCAN00_778664dc_Tx"
+      },
+      {
+         "ExecutedOnTaskLevel" : "1",
+         "NamePattern" : "Rte_COMCbk_sig_new_myecu_receive02_omsg_Receive02_oCAN00_c1e66b88_Rx"
+      },
+      {
+         "ExecutedOnTaskLevel" : "1",
+         "NamePattern" : "Rte_COMCbkTAck_sig_new_myecu_receive02_omsg_Receive02_oCAN00_c1e66b88_Rx"
+      },
+      {
+         "ExecutedOnTaskLevel" : "1",
+         "NamePattern" : "Rte_COMCbkTErr_sig_new_myecu_receive02_omsg_Receive02_oCAN00_c1e66b88_Rx"
+      },
+      {
+         "ExecutedOnTaskLevel" : "1",
+         "NamePattern" : "Rte_COMCbkTxTOut_sig_new_myecu_receive02_omsg_Receive02_oCAN00_c1e66b88_Rx"
+      },
+      {
+         "ExecutedOnTaskLevel" : "1",
+         "NamePattern" : "Rte_COMCbkTOut_sig_new_myecu_receive02_omsg_Receive02_oCAN00_c1e66b88_Rx"
+      },
+      {
+         "ExecutedOnTaskLevel" : "1",
+         "NamePattern" : "Rte_COMCbkRxTOut_sig_new_myecu_receive02_omsg_Receive02_oCAN00_c1e66b88_Rx"
+      },
+      {
+         "ExecutedOnTaskLevel" : "1",
+         "NamePattern" : "Rte_COMCbkInv_sig_new_myecu_receive02_omsg_Receive02_oCAN00_c1e66b88_Rx"
+      },
+      {
+         "ExecutedOnTaskLevel" : "1",
+         "NamePattern" : "Rte_COMCbk_sig_new_myecu_receive_omsg_Receive02_oCAN00_7aab36dc_Rx"
+      },
+      {
+         "ExecutedOnTaskLevel" : "1",
+         "NamePattern" : "Rte_COMCbkTAck_sig_new_myecu_receive_omsg_Receive02_oCAN00_7aab36dc_Rx"
+      },
+      {
+         "ExecutedOnTaskLevel" : "1",
+         "NamePattern" : "Rte_COMCbkTErr_sig_new_myecu_receive_omsg_Receive02_oCAN00_7aab36dc_Rx"
+      },
+      {
+         "ExecutedOnTaskLevel" : "1",
+         "NamePattern" : "Rte_COMCbkTxTOut_sig_new_myecu_receive_omsg_Receive02_oCAN00_7aab36dc_Rx"
+      },
+      {
+         "ExecutedOnTaskLevel" : "1",
+         "NamePattern" : "Rte_COMCbkTOut_sig_new_myecu_receive_omsg_Receive02_oCAN00_7aab36dc_Rx"
+      },
+      {
+         "ExecutedOnTaskLevel" : "1",
+         "NamePattern" : "Rte_COMCbkRxTOut_sig_new_myecu_receive_omsg_Receive02_oCAN00_7aab36dc_Rx"
+      },
+      {
+         "ExecutedOnTaskLevel" : "1",
+         "NamePattern" : "Rte_COMCbkInv_sig_new_myecu_receive_omsg_Receive02_oCAN00_7aab36dc_Rx"
       }
    ],
    "InitFunctionNamePatternList" : [

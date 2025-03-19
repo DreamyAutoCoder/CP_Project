@@ -21,7 +21,7 @@
  *  FILE DESCRIPTION
  *  -------------------------------------------------------------------------------------------------------------------
  *              File: Com_Cbk.h
- *   Generation Time: 2025-03-02 23:14:13
+ *   Generation Time: 2025-03-13 22:55:04
  *           Project: S32K144_Start - Version 1.0
  *          Delivery: CBD1800257_D01
  *      Tool Version: DaVinci Configurator  5.18.37 SP1
@@ -56,7 +56,8 @@
 
 /* Handle IDs active in all predefined variants (the application has not to take the active variant into account) */
 /*      Symbolic Name                                                 Value   Active in predefined variant(s) */
-#define ComConf_ComIPdu_msg_Receive_oCAN00_2b456e3f_Rx                0u
+#define ComConf_ComIPdu_msg_Receive02_oCAN00_efcf250a_Rx              0u
+#define ComConf_ComIPdu_msg_Receive_oCAN00_2b456e3f_Rx                1u
 /**\} */
 
 /**
@@ -69,7 +70,8 @@
 /*      Symbolic Name                                                 Value   Active in predefined variant(s) */
 #define ComConf_ComIPdu_MyECU2_Com_CAN_Network                        0u
 #define ComConf_ComIPdu_msg_MyECU_Lamp_oCAN00_818e1651_Tx             1u
-#define ComConf_ComIPdu_msg_Transmit_oCAN00_0723e95e_Tx               2u
+#define ComConf_ComIPdu_msg_Transmit02_oCAN00_e0f54509_Tx             2u
+#define ComConf_ComIPdu_msg_Transmit_oCAN00_0723e95e_Tx               3u
 /**\} */
 
 /**********************************************************************************************************************

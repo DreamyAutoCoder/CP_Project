@@ -23,5 +23,11 @@
 # define _COM_CFG_H_
 
 
+# define ComConf_ComSignal_sig_new_myecu_Send_omsg_Transmit02_oCAN00_778664dc_Tx 0
+
+# define ComConf_ComSignal_sig_new_myecu_receive02_omsg_Receive02_oCAN00_c1e66b88_Rx 1
+
+# define ComConf_ComSignal_sig_new_myecu_receive_omsg_Receive02_oCAN00_7aab36dc_Rx 2
+
 
 #endif /* _COM_CFG_H_ */

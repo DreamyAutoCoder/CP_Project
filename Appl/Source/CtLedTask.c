@@ -158,6 +158,8 @@ FUNC(void, CtLedTask_CODE) LedRunnable(void) /* PRQA S 0850 */ /* MD_MSR_19.8 */
 
 static unsigned char  LedState=0;
 static int  LedCnt=0;
+static unsigned char RearRightWindowPosition = 0;
+static unsigned char RearLeftWindowPosition = 0;
 
 LedCnt++;
 
@@ -166,6 +168,10 @@ LedState ^= 0x01;
 
 
  Dio_WriteChannel(112,LedState);
+
+Rte_Write_CtLedTask_FrontInterLight_bool_Signal(1);
+Rte_Read_RearLeft_WindowPosition_u8_Signal(&RearRightWindowPosition);
+Rte_Read_RearRight_WindowPosition_u8_Signal(&RearLeftWindowPosition);
 
 /**********************************************************************************************************************
  * DO NOT CHANGE THIS COMMENT!           << End of runnable implementation >>               DO NOT CHANGE THIS COMMENT!
