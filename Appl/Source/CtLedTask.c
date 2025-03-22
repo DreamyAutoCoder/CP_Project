@@ -178,14 +178,13 @@ LedState ^= 0x01;
  *********************************************************************************************************************/
 }
 
-static unsigned char Cbkcnt = 0;
+static boolean Cbkcnt = 0;
 FUNC(void, COM_APPL_CODE) ComCbkRx_Receive02Cbk(void){
     Cbkcnt = 1;
-    Com_SendSignal(ComConf_ComSignal_sig_new_myecu_Send_omsg_Transmit02_oCAN00_778664dc_Tx,(&Cbkcnt));
 }
 
 FUNC(void, COM_APPL_CODE) ComCbk_Receive02TimeoutCbk(void){
-    Com_SendSignal(ComConf_ComSignal_sig_new_myecu_Send_omsg_Transmit02_oCAN00_778664dc_Tx,(&Cbkcnt));
+    Rte_Write_FrontInterLight_bool_Signal(Cbkcnt); 
 }
 
 #define CtLedTask_STOP_SEC_CODE

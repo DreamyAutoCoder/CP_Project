@@ -16,11 +16,11 @@
         <ShowSource>1</ShowSource>
     </Trace1>
     <DebugChecksum>
-        <Checksum>4289600113</Checksum>
+        <Checksum>1892047155</Checksum>
     </DebugChecksum>
     <Disassembly>
-        <InstrCount>0</InstrCount>
         <MixedMode>1</MixedMode>
+        <InstrCount>0</InstrCount>
     </Disassembly>
     <CodeCoverage>
         <Enabled>0</Enabled>
@@ -168,3 +168,7 @@
         <ShowTiming>1</ShowTiming>
     </CallStackStripe>
 </settings>
+[JLinkDriver]
+TraceBufferSize=0x00010000
+TraceStallIfFIFOFull=0x00000000
+TracePortSize=0x00000000

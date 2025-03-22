@@ -332,7 +332,12 @@
                               <PARAMETER-VALUES>
                                 <ECUC-TEXTUAL-PARAM-VALUE>
                                   <DEFINITION-REF DEST="ECUC-ENUMERATION-PARAM-DEF">/MICROSAR/Com/ComConfig/ComIPdu/ComTxIPdu/ComTxModeTrue/ComTxMode/ComTxModeMode</DEFINITION-REF>
-                                  <VALUE>PERIODIC</VALUE>
+                                  <ANNOTATIONS>
+                                    <ANNOTATION>
+                                      <ANNOTATION-ORIGIN>DV:UserDefined</ANNOTATION-ORIGIN>
+                                    </ANNOTATION>
+                                  </ANNOTATIONS>
+                                  <VALUE>DIRECT</VALUE>
                                 </ECUC-TEXTUAL-PARAM-VALUE>
                                 <ECUC-NUMERICAL-PARAM-VALUE>
                                   <DEFINITION-REF DEST="ECUC-FLOAT-PARAM-DEF">/MICROSAR/Com/ComConfig/ComIPdu/ComTxIPdu/ComTxModeTrue/ComTxMode/ComTxModeTimeOffset</DEFINITION-REF>
@@ -340,7 +345,20 @@
                                 </ECUC-NUMERICAL-PARAM-VALUE>
                                 <ECUC-NUMERICAL-PARAM-VALUE>
                                   <DEFINITION-REF DEST="ECUC-FLOAT-PARAM-DEF">/MICROSAR/Com/ComConfig/ComIPdu/ComTxIPdu/ComTxModeTrue/ComTxMode/ComTxModeTimePeriod</DEFINITION-REF>
-                                  <VALUE>0.1</VALUE>
+                                  <ANNOTATIONS>
+                                    <ANNOTATION>
+                                      <ANNOTATION-ORIGIN>DV:UserDefined</ANNOTATION-ORIGIN>
+                                    </ANNOTATION>
+                                  </ANNOTATIONS>
+                                  <VALUE>0</VALUE>
+                                </ECUC-NUMERICAL-PARAM-VALUE>
+                                <ECUC-NUMERICAL-PARAM-VALUE>
+                                  <DEFINITION-REF DEST="ECUC-INTEGER-PARAM-DEF">/MICROSAR/Com/ComConfig/ComIPdu/ComTxIPdu/ComTxModeTrue/ComTxMode/ComTxModeNumberOfRepetitions</DEFINITION-REF>
+                                  <VALUE>3</VALUE>
+                                </ECUC-NUMERICAL-PARAM-VALUE>
+                                <ECUC-NUMERICAL-PARAM-VALUE>
+                                  <DEFINITION-REF DEST="ECUC-FLOAT-PARAM-DEF">/MICROSAR/Com/ComConfig/ComIPdu/ComTxIPdu/ComTxModeTrue/ComTxMode/ComTxModeRepetitionPeriod</DEFINITION-REF>
+                                  <VALUE>0.01</VALUE>
                                 </ECUC-NUMERICAL-PARAM-VALUE>
                               </PARAMETER-VALUES>
                             </ECUC-CONTAINER-VALUE>
@@ -553,7 +571,7 @@
                     </ECUC-NUMERICAL-PARAM-VALUE>
                     <ECUC-TEXTUAL-PARAM-VALUE>
                       <DEFINITION-REF DEST="ECUC-ENUMERATION-PARAM-DEF">/MICROSAR/Com/ComConfig/ComIPdu/ComIPduSignalProcessing</DEFINITION-REF>
-                      <VALUE>DEFERRED</VALUE>
+                      <VALUE>IMMEDIATE</VALUE>
                     </ECUC-TEXTUAL-PARAM-VALUE>
                     <ECUC-NUMERICAL-PARAM-VALUE>
                       <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/MICROSAR/Com/ComConfig/ComIPdu/ComIPduCancellationSupport</DEFINITION-REF>
@@ -599,7 +617,12 @@
                               <PARAMETER-VALUES>
                                 <ECUC-TEXTUAL-PARAM-VALUE>
                                   <DEFINITION-REF DEST="ECUC-ENUMERATION-PARAM-DEF">/MICROSAR/Com/ComConfig/ComIPdu/ComTxIPdu/ComTxModeTrue/ComTxMode/ComTxModeMode</DEFINITION-REF>
-                                  <VALUE>PERIODIC</VALUE>
+                                  <ANNOTATIONS>
+                                    <ANNOTATION>
+                                      <ANNOTATION-ORIGIN>DV:UserDefined</ANNOTATION-ORIGIN>
+                                    </ANNOTATION>
+                                  </ANNOTATIONS>
+                                  <VALUE>DIRECT</VALUE>
                                 </ECUC-TEXTUAL-PARAM-VALUE>
                                 <ECUC-NUMERICAL-PARAM-VALUE>
                                   <DEFINITION-REF DEST="ECUC-FLOAT-PARAM-DEF">/MICROSAR/Com/ComConfig/ComIPdu/ComTxIPdu/ComTxModeTrue/ComTxMode/ComTxModeTimeOffset</DEFINITION-REF>
@@ -607,7 +630,20 @@
                                 </ECUC-NUMERICAL-PARAM-VALUE>
                                 <ECUC-NUMERICAL-PARAM-VALUE>
                                   <DEFINITION-REF DEST="ECUC-FLOAT-PARAM-DEF">/MICROSAR/Com/ComConfig/ComIPdu/ComTxIPdu/ComTxModeTrue/ComTxMode/ComTxModeTimePeriod</DEFINITION-REF>
-                                  <VALUE>0.1</VALUE>
+                                  <ANNOTATIONS>
+                                    <ANNOTATION>
+                                      <ANNOTATION-ORIGIN>DV:UserDefined</ANNOTATION-ORIGIN>
+                                    </ANNOTATION>
+                                  </ANNOTATIONS>
+                                  <VALUE>0</VALUE>
+                                </ECUC-NUMERICAL-PARAM-VALUE>
+                                <ECUC-NUMERICAL-PARAM-VALUE>
+                                  <DEFINITION-REF DEST="ECUC-INTEGER-PARAM-DEF">/MICROSAR/Com/ComConfig/ComIPdu/ComTxIPdu/ComTxModeTrue/ComTxMode/ComTxModeNumberOfRepetitions</DEFINITION-REF>
+                                  <VALUE>3</VALUE>
+                                </ECUC-NUMERICAL-PARAM-VALUE>
+                                <ECUC-NUMERICAL-PARAM-VALUE>
+                                  <DEFINITION-REF DEST="ECUC-FLOAT-PARAM-DEF">/MICROSAR/Com/ComConfig/ComIPdu/ComTxIPdu/ComTxModeTrue/ComTxMode/ComTxModeRepetitionPeriod</DEFINITION-REF>
+                                  <VALUE>0.01</VALUE>
                                 </ECUC-NUMERICAL-PARAM-VALUE>
                               </PARAMETER-VALUES>
                             </ECUC-CONTAINER-VALUE>
@@ -938,7 +974,7 @@
                               <PARAMETER-VALUES>
                                 <ECUC-TEXTUAL-PARAM-VALUE>
                                   <DEFINITION-REF DEST="ECUC-ENUMERATION-PARAM-DEF">/MICROSAR/Com/ComConfig/ComIPdu/ComTxIPdu/ComTxModeTrue/ComTxMode/ComTxModeMode</DEFINITION-REF>
-                                  <VALUE>PERIODIC</VALUE>
+                                  <VALUE>DIRECT</VALUE>
                                 </ECUC-TEXTUAL-PARAM-VALUE>
                                 <ECUC-NUMERICAL-PARAM-VALUE>
                                   <DEFINITION-REF DEST="ECUC-FLOAT-PARAM-DEF">/MICROSAR/Com/ComConfig/ComIPdu/ComTxIPdu/ComTxModeTrue/ComTxMode/ComTxModeTimeOffset</DEFINITION-REF>
@@ -946,7 +982,15 @@
                                 </ECUC-NUMERICAL-PARAM-VALUE>
                                 <ECUC-NUMERICAL-PARAM-VALUE>
                                   <DEFINITION-REF DEST="ECUC-FLOAT-PARAM-DEF">/MICROSAR/Com/ComConfig/ComIPdu/ComTxIPdu/ComTxModeTrue/ComTxMode/ComTxModeTimePeriod</DEFINITION-REF>
-                                  <VALUE>0.1</VALUE>
+                                  <VALUE>0</VALUE>
+                                </ECUC-NUMERICAL-PARAM-VALUE>
+                                <ECUC-NUMERICAL-PARAM-VALUE>
+                                  <DEFINITION-REF DEST="ECUC-INTEGER-PARAM-DEF">/MICROSAR/Com/ComConfig/ComIPdu/ComTxIPdu/ComTxModeTrue/ComTxMode/ComTxModeNumberOfRepetitions</DEFINITION-REF>
+                                  <VALUE>3</VALUE>
+                                </ECUC-NUMERICAL-PARAM-VALUE>
+                                <ECUC-NUMERICAL-PARAM-VALUE>
+                                  <DEFINITION-REF DEST="ECUC-FLOAT-PARAM-DEF">/MICROSAR/Com/ComConfig/ComIPdu/ComTxIPdu/ComTxModeTrue/ComTxMode/ComTxModeRepetitionPeriod</DEFINITION-REF>
+                                  <VALUE>0.01</VALUE>
                                 </ECUC-NUMERICAL-PARAM-VALUE>
                               </PARAMETER-VALUES>
                             </ECUC-CONTAINER-VALUE>
@@ -1111,7 +1155,12 @@
                     </ECUC-TEXTUAL-PARAM-VALUE>
                     <ECUC-TEXTUAL-PARAM-VALUE>
                       <DEFINITION-REF DEST="ECUC-ENUMERATION-PARAM-DEF">/MICROSAR/Com/ComConfig/ComSignal/ComTransferProperty</DEFINITION-REF>
-                      <VALUE>PENDING</VALUE>
+                      <ANNOTATIONS>
+                        <ANNOTATION>
+                          <ANNOTATION-ORIGIN>DV:UserDefined</ANNOTATION-ORIGIN>
+                        </ANNOTATION>
+                      </ANNOTATIONS>
+                      <VALUE>TRIGGERED</VALUE>
                     </ECUC-TEXTUAL-PARAM-VALUE>
                     <ECUC-TEXTUAL-PARAM-VALUE>
                       <DEFINITION-REF DEST="ECUC-ENUMERATION-PARAM-DEF">/MICROSAR/Com/ComConfig/ComSignal/ComSignalAccess</DEFINITION-REF>
